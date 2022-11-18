@@ -4,7 +4,7 @@
   "description": "Employee Tracker Database",
   "main": "server.js",
   "scripts": {
-    "test": "node",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
@@ -27,7 +27,8 @@
   "homepage": "https://github.com/tierney03/EmployeeTracker_SQL#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^9.1.4",
+    "dotenv": "^16.0.3",
+    "inquirer": "^8.2.4",
     "mysql2": "^2.3.3"
   }
 }
