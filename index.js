@@ -13,7 +13,7 @@ const db = mysql.createConnection({
 
 const viewAllOptions = () => {
   return inquirer
-    .createPromptModule([
+    .prompt([
       {
         type: "list",
         name: "option",
