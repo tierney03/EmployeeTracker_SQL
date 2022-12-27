@@ -2,15 +2,13 @@
 const inquirer = require("inquirer");
 const mysql = require("mysql2");
 const consoleTable = require("console.table");
-const { allowedNodeEnvironmentFlags } = require("process");
-const { default: ExpandPrompt } = require("inquirer/lib/prompts/expand");
 
 //Connecgting to mysql
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "employees_db",
+  database: "company_db",
 });
 
 const viewAllOptions = () => {
