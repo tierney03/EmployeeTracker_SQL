@@ -137,6 +137,11 @@ const addEmployee = () => {
       {
         type: "input",
         name: "first_name",
+        message: "Enter the new employee's first name.",
+      },
+      {
+        type: "input",
+        name: "last_name",
         message: "Enter the new employee's last name.",
       },
       {
