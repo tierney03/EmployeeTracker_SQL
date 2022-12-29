@@ -3,7 +3,7 @@ const inquirer = require("inquirer");
 const mysql = require("mysql2");
 const consoleTable = require("console.table");
 
-//Connecgting to mysql
+//Connecting to mysql
 const db = mysql.createConnection({
   host: "localhost",
   user: "root",
@@ -111,7 +111,7 @@ const addRole = () => {
       {
         type: "input",
         name: "salary",
-        message: "Enter the salart you want for the new role.",
+        message: "Enter the salary you want for the new role.",
       },
       {
         type: "input",
